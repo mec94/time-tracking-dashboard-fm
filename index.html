@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css" type="text/css">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+</head>
+<body>
+  <article class="tracking-dashboard">
+    <section class="user-report">
+      <div class="report-abt">
+        <img class="report-abt__image" src="./images/image-jeremy.png" alt="user-image" />
+        <div class="report-abt__title">
+          <p class="report-abt__for">Report for</p>
+          <div class="report-abt__name">
+            <p>Jeremy</p>
+            <p>Robson</p>
+          </div>
+        </div>
+      </div>
+      <div class="report-selector flex-around">
+        <a href="#" onclick="switchDate('daily')">Daily</a>
+        <a href="#" onclick="switchDate('weekly')">Weekly</a>
+        <a href="#" onclick="switchDate('monthly')">Monthly</a>
+      </div>
+    </section>
+
+    <section class="report-card" id="work">
+      <div class="report-card-icon">
+        <img class="report-card-icon__img" src="./images/icon-work.svg" alt="work-card-icon" />
+      </div>
+      <div class="report-card-details">
+        <div class="report-activity flex-between">
+          <p class="report-activity__description">Work</p>
+          <a href="#" class="ellipsis-button"><img class="ellipsis-icon" src="./images/icon-ellipsis.svg" alt="ellipsis"/></a>
+        </div>
+        <div class="report-frametime flex-between">
+          <p class="report-frametime__hours">32hrs</p>
+          <p class="report-frametime__lastweek">Last Week - 36hrs</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="report-card" id="play">
+      <div class="report-card-icon">
+        <img class="report-card-icon__img" src="./images/icon-play.svg" alt="play-card-icon" />
+      </div>
+      <div class="report-card-details">
+        <div class="report-activity flex-between">
+          <p class="report-activity__description">Play</p>
+          <a href="#" class="ellipsis-button"><img class="ellipsis-icon"src="./images/icon-ellipsis.svg" alt="ellipsis" /></a>
+        </div>
+        <div class="report-frametime flex-between">
+          <p class="report-frametime__hours">10hrs</p>
+          <p class="report-frametime__lastweek">Last Week - 8hrs</p>
+        </div>
+      </div>
+    </section>
+    
+    <section class="report-card" id="study">
+      <div class="report-card-icon">
+        <img class="report-card-icon__img" src="./images/icon-study.svg" alt="study-card-icon"/>
+      </div>
+      <div class="report-card-details">
+        <div class="report-activity flex-between">
+          <p class="report-activity__description">Study</p>
+          <a href="#" class="ellipsis-button"><img class="ellipsis-icon"src="./images/icon-ellipsis.svg" alt="ellipsis"/></a>
+        </div>
+        <div class="report-frametime flex-between">
+          <p class="report-frametime__hours">4hrs</p>
+          <p class="report-frametime__lastweek">Last Week - 7hrs</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="report-card" id="exercise">
+      <div class="report-card-icon">
+        <img class="report-card-icon__img" src="./images/icon-exercise.svg" alt="exercise-card-icon" />
+      </div>
+      <div class="report-card-details">
+        <div class="report-activity flex-between">
+          <p class="report-activity__description">Exercise</p>
+          <a href="#" class="ellipsis-button"><img class="ellipsis-icon"src="./images/icon-ellipsis.svg" alt="ellipsis" /></a>
+        </div>
+        <div class="report-frametime flex-between">
+          <p class="report-frametime__hours">4hrs</p>
+          <p class="report-frametime__lastweek">Last Week - 5hrs</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="report-card" id="social">
+      <div class="report-card-icon">
+        <img class="report-card-icon__img" src="./images/icon-social.svg" alt="social-card-icon" />
+      </div>
+      <div class="report-card-details">
+        <div class="report-activity flex-between">
+          <p class="report-activity__description">Social</p>
+          <a href="#" class="ellipsis-button"><img class="ellipsis-icon"src="./images/icon-ellipsis.svg" alt="ellipsis" /></a>
+        </div>
+        <div class="report-frametime flex-between">
+          <p class="report-frametime__hours">5hrs</p>
+          <p class="report-frametime__lastweek">Last Week - 10hrs</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="report-card" id="selfcare">
+      <div class="report-card-icon">
+        <img class="report-card-icon__img" src="./images/icon-self-care.svg" alt="self-care-card-icon" />
+      </div>
+      <div class="report-card-details">
+        <div class="report-activity flex-between">
+          <p class="report-activity__description">Self Care</p>
+          <a href="#" class="ellipsis-button"><img class="ellipsis-icon"src="./images/icon-ellipsis.svg" alt="ellipsis" /></a>
+        </div>
+        <div class="report-frametime flex-between">
+          <p class="report-frametime__hours">2hrs</p>
+          <p class="report-frametime__lastweek">Last Week - 2hrs</p>
+        </div>
+      </div>
+    </section>
+
+  </article>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/mec94">mec94</a>.
+  </div>
+  <script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>
