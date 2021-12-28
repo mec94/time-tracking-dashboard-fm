@@ -107,23 +107,8 @@ var frametimeHours = document.body.getElementsByClassName('report-frametime__hou
 var frametimeLastWeek = document.body.getElementsByClassName('report-frametime__lastweek');
 
 function switchDate(choice) {
-  var daily = daily;
-  if (choice == 'daily') {
     for(let i=0; i < frametimeHours.length; i++) {
-    frametimeHours[i].innerHTML = trackData[i].timeframes.daily.current + "hrs";
-    frametimeLastWeek[i].innerText = "Last Week - " + trackData[i].timeframes.daily.previous + "hrs";
-    }
-  }
-  if (choice == 'weekly') {
-    for(let i=0; i < frametimeHours.length; i++) {
-    frametimeHours[i].innerText = trackData[i].timeframes.weekly.current + "hrs";
-    frametimeLastWeek[i].innerText = "Last Week - " + trackData[i].timeframes.weekly.previous + "hrs";
-    }
-  }
-  if (choice == 'monthly') {
-    for(let i=0; i < frametimeHours.length; i++) {
-    frametimeHours[i].innerText = trackData[i].timeframes.monthly.current + "hrs";
-    frametimeLastWeek[i].innerText = "Last Week - " + trackData[i].timeframes.monthly.previous + "hrs";
-    }
+    frametimeHours[i].innerHTML = trackData[i].timeframes[choice].current + "hrs";
+    frametimeLastWeek[i].innerText = "Last Week - " + trackData[i].timeframes[choice].previous + "hrs";
   }
 }
