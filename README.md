@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Repo](https://github.com/mec94/time-tracking-dashboard-fm)
+- Live Site URL: [GitHub Pages](https://mec94.github.io/time-tracking-dashboard-fm/)
 
 ## My process
 
@@ -56,7 +56,7 @@ I plan to start learning a popular Javascript framework like React and get used 
 
 ## Author
 
-- Website - [Activate For Free](https://activateforfree.com) - Activate your Windows / Office 100% free without downloading anything external. It's a small personal project that i've been working on last year for anyone who needs.
+- Website - [Activate For Free](https://activateforfree.com) - Activate your Windows / Office 100% free without downloading anything external. Small personal project.
 - Frontend Mentor Profile - [@mec94](https://www.frontendmentor.io/profile/mec94)
 
 ## Acknowledgments
@@ -64,5 +64,3 @@ I plan to start learning a popular Javascript framework like React and get used 
 I revised Robert Rynard's solution to get some insights on how to tackle this challenge
 
 [Robert Rynard's FM Profile](https://www.frontendmentor.io/profile/Robert-Rynard)
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
